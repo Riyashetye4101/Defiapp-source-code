@@ -1,0 +1,128 @@
+.card{
+    
+    padding: 10px;
+    margin:8px;
+    
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+
+background: #191B20;
+opacity: 0.8;
+border-radius: 16px;
+}
+.card:hover{
+    border-left: 4px solid #000AFF;
+    
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.card-top{
+    display: flex;
+    gap:5px;
+    height:49px;
+    min-height: fit-content;
+}
+.card-labels{
+    display: inline-block;
+  flex:1;
+  display: flex;
+  gap:10px;
+}
+.money-bag>img{
+    position: relative;
+    display: inline-block;
+    padding: 2px;
+    margin-left: 6px;
+    margin-bottom: 2px;
+    width:8.75px;
+    height: 10.77px;
+    top:4px;
+    right: 1px;
+    
+}
+.money-bag{
+    position: relative;
+    bottom: 13px;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    background : linear-gradient(135deg, #BBB5E2 0%, #9C92DF 100%);
+}
+
+
+.edit-btn{
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    padding: 7px;
+    cursor: pointer;
+    transition: 200ms;
+}
+.edit-btn-x{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color:#353945;
+}
+
+.card-title{
+    display: inline-block;
+    
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    gap:2px;
+    font-weight: bold;
+    min-height: fit-content;
+}
+.card-title p{
+
+    position: relative;
+    bottom: 13px;
+/* font-family: 'Poppins'; */
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+
+/* white */
+
+color: #FFFFFF;
+    
+    flex:1;
+    
+
+    
+}
+
+.card-footer p{
+    
+width: 242.26px;
+/* height: 46px; */
+
+/* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 14px;
+/* or 100% */
+
+
+/* text colour */
+
+color: #808191;
+
+}
+.card-top svg{
+     cursor: pointer;
+     width: 30px;
+     height: 30px;
+}
+.card-top svg:hover{
+    color: gray;
+}

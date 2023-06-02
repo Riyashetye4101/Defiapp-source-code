@@ -1,0 +1,69 @@
+.addlist{
+    width: 286.65px;
+    height: fit-content;
+    /* max-height: 100%; */
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.board-top{
+    display: flex;
+    margin-left:5px;
+    margin-right: 5px;
+    /* display: flex; */
+    background-color: #242731;
+    mix-blend-mode: normal;
+    border-radius: 12px;
+    padding-top: 5px;
+    padding-left: 20px;
+    /* text-align: center; */
+    font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 41px;
+letter-spacing: 1px;
+
+color: #FFFFFF;
+
+    font-weight: bold;
+    /* flex-wrap: wrap; */
+}
+
+#AddListID{
+    flex:1;
+    
+height: 41px;
+
+/* font-family: 'Inter'; */
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 41px;
+/* identical to box height, or 256% */
+
+letter-spacing: 1px;
+
+
+background: #242731;
+mix-blend-mode: normal;
+border-radius: 12px;
+outline: none;
+box-shadow: none;
+border: none;
+}
+.list-btn{
+    
+    cursor: pointer;
+    width: 26.54px;
+height: 30px;
+left: 1076.05px;
+top: 128px;
+border:none;
+background: #353945;
+border-radius: 12px;
+}
+.list-btn img{
+    position: relative;
+    top:2px;
+}
